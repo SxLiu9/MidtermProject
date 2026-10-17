@@ -1,0 +1,11 @@
+{
+  "seed": 4810,
+  "noise_samples_per_condition": 10000,
+  "max_noise_rmse_difference_m": 6.39830697671327e-07,
+  "limitations": [
+    "Synthetic validation only; no real camera calibration",
+    "Point targets, ideal pinhole, static box occluder",
+    "No illumination or lens distortion model",
+    "No controller or motor dynamics implemented"
+  ]
+}
