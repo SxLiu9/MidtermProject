@@ -2,3 +2,10 @@ __pycache__/
 .venv/
 outputs/
 .mplconfig/
+
+# LaTeX build intermediates
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz

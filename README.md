@@ -74,3 +74,13 @@ The script uses Matplotlib's noninteractive Agg backend: it saves files and does
 - Optional output location: `python simulate.py --output-dir /tmp/pt-camera-results`.
 
 Green/red points mean visible/unavailable; unavailable includes both outside FOV and occluded targets. Ground coordinates are metres; image coordinates are millimetres. Noise RMSE is a two-dimensional radial error, with theoretical value sqrt(2)*sigma.
+
+
+## 修正公式的报告与真实照片方案
+
+- [修正后的 TEX](report/main_corrected.tex)
+- [已编译 PDF（10 页）](report/main_corrected.pdf)
+- [Media 与真实照片接入方案](report/REAL_IMAGE_MEDIA_PLAN.md)
+- [Overleaf 和编译说明](report/README.md)
+
+报告描述现有结果，并明确标注未完成的实验。真实照片接入为建议方案，尚未实现或验证。
