@@ -1,5 +1,14 @@
 # PT Camera 完整实验工程
 
+
+## 新增：可以直接观看的三维运动模型
+
+**[播放/下载MP4](outputs/motion/pt_motion.mp4)** · **[查看GIF](outputs/motion/pt_motion.gif)** · **[运动逻辑说明](MOTION_DEMO.md)**
+
+![三维PT相机运动演示](outputs/motion/pt_motion.gif)
+
+相机本体随pan/tilt转动，两个目标沿地面轨迹运动；三维视场与图像测量同步更新。12秒、120帧，噪声关闭。运行 `python motion_demo.py` 重新生成（MP4需要系统FFmpeg）。这是给定轨迹的运动学演示，未实现电机动力学/反馈控制，也未经真实相机验证。既有PDF尚未包含本次扩展。
+
 ## 快速开始
 
 本工程提供课程针孔相机模型、FOV、长方体遮挡与高斯测量噪声实验。
