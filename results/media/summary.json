@@ -1,0 +1,17 @@
+{
+  "config_sha256": "5c791d7e523a2d8c7210f6400434034c54f51d1d096c8eec0b262d3eb7c4cf96",
+  "frames": 120,
+  "fps": 10,
+  "duration_s": 12,
+  "pan_min_deg": -35.0,
+  "pan_max_deg": 35.0,
+  "tilt_min_deg": 139.00149324917038,
+  "tilt_max_deg": 154.99850675082962,
+  "status_counts": {
+    "VISIBLE": 189,
+    "OCCLUDED": 45,
+    "OUTSIDE FOV": 6
+  },
+  "motion": "Prescribed smooth kinematic trajectories, no motor dynamics or feedback",
+  "noise_sigma_m": 0
+}

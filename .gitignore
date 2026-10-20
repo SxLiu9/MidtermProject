@@ -1,9 +1,7 @@
 __pycache__/
+*.py[cod]
 .venv/
-outputs/
 .mplconfig/
-
-# LaTeX build intermediates
 report/*.aux
 report/*.log
 report/*.out

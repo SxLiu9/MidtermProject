@@ -1,0 +1,60 @@
+{
+  "config_sha256": "5c791d7e523a2d8c7210f6400434034c54f51d1d096c8eec0b262d3eb7c4cf96",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "scene": {
+    "in_fov": 4,
+    "visible": 3
+  },
+  "height": {
+    "max_relative_area_error": 2.0559685641206605e-16,
+    "max_projection_error_m": 0.0,
+    "area_min_m2": 34.56,
+    "area_max_m2": 311.03999999999996,
+    "x_first_mm": 5.0,
+    "x_last_mm": 1.6666666666666667
+  },
+  "pan": {
+    "max_relative_area_change": 4.120603734604025e-16,
+    "visible_min": 1,
+    "visible_max": 3
+  },
+  "tilt": {
+    "area_first_m2": 10373.870053600103,
+    "area_last_m2": 140.60403328127023,
+    "last_visible_deg": 165.0,
+    "first_unavailable_deg": 166.0
+  },
+  "target_motion": {
+    "samples": 601,
+    "visible_samples": 507,
+    "entry_theory_s": 0.9282046099001384,
+    "exit_theory_s": 11.071795390099862,
+    "first_visible_sample_s": 0.9400000000000001,
+    "last_visible_sample_s": 11.06,
+    "classification_mismatches": 0,
+    "image_speed_mm_s": 3.5490390710823974
+  },
+  "occlusion": {
+    "critical_height_m": 2.8,
+    "classification_mismatches": 0,
+    "sampled_first_blocked_m": 2.8000000000000003,
+    "valid_count": 28
+  },
+  "noise": {
+    "samples_per_condition": 10000,
+    "seed": 4810,
+    "max_abs_rmse_difference_mm": 0.0006398306976712999,
+    "sigma_max_mm": 0.5,
+    "rmse_at_max_sigma_mm": 0.7068168526405265,
+    "max_relative_rmse_difference": 0.009048572502693863
+  },
+  "sensitivity": {
+    "max_error_at_first_step": 5.744083139691547e-09,
+    "max_error_at_last_step": 1.0178533363380815e-13,
+    "last_step_m": 1e-05,
+    "tested_points": 3
+  },
+  "experiment_checks_passed": 6
+}

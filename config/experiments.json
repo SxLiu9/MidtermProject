@@ -1,0 +1,31 @@
+{
+  "camera": {
+    "position_m": [0.0, 0.0, 8.0],
+    "pan_deg": 0.0,
+    "tilt_deg": 140.0,
+    "focal_m": 0.02,
+    "image_width_m": 0.036,
+    "image_height_m": 0.024
+  },
+  "scene": {
+    "targets_m": [[-2.0, -5.0, 0.0], [0.0, -8.0, 0.0], [3.0, -10.0, 0.0], [-4.0, -12.0, 0.0]],
+    "box_lower_m": [-0.8, -5.2, 0.0],
+    "box_upper_m": [0.8, -4.0, 4.0]
+  },
+  "height": {"values_m": [4, 6, 8, 10, 12], "tilt_deg": 180, "target_m": [1, 0, 0]},
+  "pan": {"start_deg": -60, "stop_deg": 60, "step_deg": 1},
+  "tilt": {"start_deg": 125, "stop_deg": 175, "step_deg": 1, "target_m": [0, -8, 0], "display_deg": [125, 140, 155, 175]},
+  "target_motion": {"duration_s": 12, "dt_s": 0.02, "start_m": [-12, -8, 0], "velocity_m_s": [2, 0, 0]},
+  "occlusion": {"target_m": [0, -8, 0], "height_start_m": 0, "height_stop_m": 5, "height_step_m": 0.1},
+  "noise": {"sigma_mm": [0, 0.02, 0.05, 0.1, 0.2, 0.5], "samples": 10000, "seed": 4810},
+  "sensitivity": {"camera_points_m": [[0.5, -0.8, 5], [-1, 1, 8], [1.8, 0.4, 12]], "fd_step_m": [0.01, 0.001, 0.0001, 0.00001]},
+  "media": {
+    "duration_s": 12, "fps": 10,
+    "pan_amplitude_deg": 35, "tilt_mean_deg": 147,
+    "tilt_amplitude_deg": 8, "tilt_phase_rad": 0.7,
+    "targets": [
+      {"center_m": [-1, -8, 0], "amplitude_m": [5, 1.5, 0], "phase_rad": 0, "x_function": "cos", "y_function": "sin"},
+      {"center_m": [0, -11, 0], "amplitude_m": [3, 2, 0], "phase_rad": 1.3, "x_function": "sin", "y_function": "cos"}
+    ]
+  }
+}
